@@ -1,0 +1,28 @@
+2020-01-06 15:54:32,995 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:49756/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-01-06 15:54:32,996 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:49756
+2020-01-06 15:54:34,653 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:49756 "POST /session HTTP/1.1" 200 685
+2020-01-06 15:54:34,654 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-06 15:54:34,655 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:49756/session/755f3ed0c4503c9e44e69f4ef9f3cd7e/window/maximize {}
+2020-01-06 15:54:35,774 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:49756 "POST /session/755f3ed0c4503c9e44e69f4ef9f3cd7e/window/maximize HTTP/1.1" 200 52
+2020-01-06 15:54:35,774 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-06 15:54:35,774 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:49756/session/755f3ed0c4503c9e44e69f4ef9f3cd7e/timeouts {"implicit": 15000}
+2020-01-06 15:54:35,776 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:49756 "POST /session/755f3ed0c4503c9e44e69f4ef9f3cd7e/timeouts HTTP/1.1" 200 14
+2020-01-06 15:54:35,777 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-06 15:54:35,777 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:49756/session/755f3ed0c4503c9e44e69f4ef9f3cd7e/window/handles {}
+2020-01-06 15:54:35,780 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:49756 "GET /session/755f3ed0c4503c9e44e69f4ef9f3cd7e/window/handles HTTP/1.1" 200 55
+2020-01-06 15:54:35,781 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-06 15:54:35,781 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:49756/session/755f3ed0c4503c9e44e69f4ef9f3cd7e/url {}
+2020-01-06 15:54:35,789 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:49756 "GET /session/755f3ed0c4503c9e44e69f4ef9f3cd7e/url HTTP/1.1" 200 18
+2020-01-06 15:54:35,789 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-06 15:54:35,789 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:49756/session/755f3ed0c4503c9e44e69f4ef9f3cd7e/window {"handle": "CDwindow-C378A4053636A1E92E704B31F76D3274"}
+2020-01-06 15:54:35,795 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:49756 "POST /session/755f3ed0c4503c9e44e69f4ef9f3cd7e/window HTTP/1.1" 200 14
+2020-01-06 15:54:35,795 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-06 15:54:35,795 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:49756/session/755f3ed0c4503c9e44e69f4ef9f3cd7e/url {}
+2020-01-06 15:54:35,803 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:49756 "GET /session/755f3ed0c4503c9e44e69f4ef9f3cd7e/url HTTP/1.1" 200 18
+2020-01-06 15:54:35,804 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-06 15:54:35,804 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:49756/session/755f3ed0c4503c9e44e69f4ef9f3cd7e/url {"url": "http://49.234.189.120/"}
+2020-01-06 15:54:56,240 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:49756 "POST /session/755f3ed0c4503c9e44e69f4ef9f3cd7e/url HTTP/1.1" 200 14
+2020-01-06 15:54:56,240 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-06 15:54:56,241 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:49756/session/755f3ed0c4503c9e44e69f4ef9f3cd7e/element {"using": "xpath", "value": "//input[@class=\"earch-text\"]"}
+2020-01-06 15:55:11,265 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:49756 "POST /session/755f3ed0c4503c9e44e69f4ef9f3cd7e/element HTTP/1.1" 404 1057
+2020-01-06 15:55:11,266 - remote_connection.py - _request - DEBUG -Finished Request

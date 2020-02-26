@@ -1,0 +1,32 @@
+2019-11-20 18:53:28,879 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:deviceName": "127.0.0.1:62001", "appium:paltformVersion": "5.1.1", "appium:appPackage": "com.netease.newsreader.activity", "appium:appActivity": "com.netease.nr.biz.ad.newAd.AdActivity", "appium:automationName": "Uiautomator2"}]}, "desiredCapabilities": {"platformName": "Android", "deviceName": "127.0.0.1:62001", "paltformVersion": "5.1.1", "appPackage": "com.netease.newsreader.activity", "appActivity": "com.netease.nr.biz.ad.newAd.AdActivity", "automationName": "Uiautomator2"}}
+2019-11-20 18:53:28,880 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:4723
+2019-11-20 18:53:50,778 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1009
+2019-11-20 18:53:50,779 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 18:54:00,779 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/65f07972-861c-41be-911e-2926183bbad8/timeouts {"implicit": 20000}
+2019-11-20 18:54:00,780 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 18:54:00,788 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/65f07972-861c-41be-911e-2926183bbad8/timeouts HTTP/1.1" 200 14
+2019-11-20 18:54:00,789 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 18:54:00,789 - basePage.py - wait - DEBUG -隐式等待20s
+2019-11-20 18:54:10,790 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/65f07972-861c-41be-911e-2926183bbad8/element {"using": "-android uiautomator", "value": "new UiSelector().text(\"\u6211\")"}
+2019-11-20 18:54:10,790 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 18:54:11,099 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/65f07972-861c-41be-911e-2926183bbad8/element HTTP/1.1" 200 137
+2019-11-20 18:54:11,100 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 18:54:11,100 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:4723/wd/hub/session/65f07972-861c-41be-911e-2926183bbad8/element/fb14c34b-6f78-4f22-99a0-21c9a46ae795/displayed {"id": "fb14c34b-6f78-4f22-99a0-21c9a46ae795"}
+2019-11-20 18:54:11,124 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "GET /wd/hub/session/65f07972-861c-41be-911e-2926183bbad8/element/fb14c34b-6f78-4f22-99a0-21c9a46ae795/displayed HTTP/1.1" 200 14
+2019-11-20 18:54:11,124 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 18:54:11,124 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/65f07972-861c-41be-911e-2926183bbad8/element/fb14c34b-6f78-4f22-99a0-21c9a46ae795/click {"id": "fb14c34b-6f78-4f22-99a0-21c9a46ae795"}
+2019-11-20 18:54:12,453 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/65f07972-861c-41be-911e-2926183bbad8/element/fb14c34b-6f78-4f22-99a0-21c9a46ae795/click HTTP/1.1" 200 14
+2019-11-20 18:54:12,453 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 18:54:12,453 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/65f07972-861c-41be-911e-2926183bbad8/element {"using": "id", "value": "com.netease.newsreader.activity:id/bbo"}
+2019-11-20 18:54:12,574 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/65f07972-861c-41be-911e-2926183bbad8/element HTTP/1.1" 200 137
+2019-11-20 18:54:12,574 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 18:54:12,574 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:4723/wd/hub/session/65f07972-861c-41be-911e-2926183bbad8/element/a7b0e77d-5418-42f3-bab6-4ef9f3e85f0e/displayed {"id": "a7b0e77d-5418-42f3-bab6-4ef9f3e85f0e"}
+2019-11-20 18:54:12,585 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "GET /wd/hub/session/65f07972-861c-41be-911e-2926183bbad8/element/a7b0e77d-5418-42f3-bab6-4ef9f3e85f0e/displayed HTTP/1.1" 200 14
+2019-11-20 18:54:12,586 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 18:54:12,586 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/65f07972-861c-41be-911e-2926183bbad8/element/a7b0e77d-5418-42f3-bab6-4ef9f3e85f0e/click {"id": "a7b0e77d-5418-42f3-bab6-4ef9f3e85f0e"}
+2019-11-20 18:54:12,600 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/65f07972-861c-41be-911e-2926183bbad8/element/a7b0e77d-5418-42f3-bab6-4ef9f3e85f0e/click HTTP/1.1" 200 14
+2019-11-20 18:54:12,601 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 18:54:12,601 - remote_connection.py - _request - DEBUG -DELETE http://127.0.0.1:4723/wd/hub/session/65f07972-861c-41be-911e-2926183bbad8 {}
+2019-11-20 18:54:14,144 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "DELETE /wd/hub/session/65f07972-861c-41be-911e-2926183bbad8 HTTP/1.1" 200 14
+2019-11-20 18:54:14,144 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 18:54:14,144 - basePage.py - exit - DEBUG -关闭驱动

@@ -1,0 +1,41 @@
+2020-01-05 22:55:11,302 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53203/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-01-05 22:55:11,303 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:53203
+2020-01-05 22:55:12,970 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53203 "POST /session HTTP/1.1" 200 685
+2020-01-05 22:55:12,971 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 22:55:12,971 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53203/session/0f7d3027ef20acf4aebc95a9beac2806/window/maximize {}
+2020-01-05 22:55:14,093 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53203 "POST /session/0f7d3027ef20acf4aebc95a9beac2806/window/maximize HTTP/1.1" 200 52
+2020-01-05 22:55:14,094 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 22:55:14,094 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53203/session/0f7d3027ef20acf4aebc95a9beac2806/timeouts {"implicit": 15000}
+2020-01-05 22:55:14,096 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53203 "POST /session/0f7d3027ef20acf4aebc95a9beac2806/timeouts HTTP/1.1" 200 14
+2020-01-05 22:55:14,096 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 22:55:14,096 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:53203/session/0f7d3027ef20acf4aebc95a9beac2806/url {}
+2020-01-05 22:55:14,103 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53203 "GET /session/0f7d3027ef20acf4aebc95a9beac2806/url HTTP/1.1" 200 18
+2020-01-05 22:55:14,104 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 22:55:14,104 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:53203/session/0f7d3027ef20acf4aebc95a9beac2806/window/handles {}
+2020-01-05 22:55:14,108 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53203 "GET /session/0f7d3027ef20acf4aebc95a9beac2806/window/handles HTTP/1.1" 200 55
+2020-01-05 22:55:14,109 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 22:55:14,109 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:53203/session/0f7d3027ef20acf4aebc95a9beac2806/url {}
+2020-01-05 22:55:14,114 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53203 "GET /session/0f7d3027ef20acf4aebc95a9beac2806/url HTTP/1.1" 200 18
+2020-01-05 22:55:14,114 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 22:55:14,114 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53203/session/0f7d3027ef20acf4aebc95a9beac2806/url {"url": "http://49.234.189.120/"}
+2020-01-05 22:55:34,549 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53203 "POST /session/0f7d3027ef20acf4aebc95a9beac2806/url HTTP/1.1" 200 14
+2020-01-05 22:55:34,549 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 22:55:34,549 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:53203/session/0f7d3027ef20acf4aebc95a9beac2806/url {}
+2020-01-05 22:55:34,556 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53203 "GET /session/0f7d3027ef20acf4aebc95a9beac2806/url HTTP/1.1" 200 34
+2020-01-05 22:55:34,556 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 22:55:34,557 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:53203/session/0f7d3027ef20acf4aebc95a9beac2806/window/handles {}
+2020-01-05 22:55:34,560 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53203 "GET /session/0f7d3027ef20acf4aebc95a9beac2806/window/handles HTTP/1.1" 200 55
+2020-01-05 22:55:34,560 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 22:55:34,560 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:53203/session/0f7d3027ef20acf4aebc95a9beac2806/url {}
+2020-01-05 22:55:34,564 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53203 "GET /session/0f7d3027ef20acf4aebc95a9beac2806/url HTTP/1.1" 200 34
+2020-01-05 22:55:34,564 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 22:55:44,564 - remote_connection.py - _request - DEBUG -DELETE http://127.0.0.1:53203/session/0f7d3027ef20acf4aebc95a9beac2806 {}
+2020-01-05 22:55:44,606 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53203 "DELETE /session/0f7d3027ef20acf4aebc95a9beac2806 HTTP/1.1" 200 14
+2020-01-05 22:55:44,606 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 22:55:47,265 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53273/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-01-05 22:55:47,266 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:53273
+2020-01-05 22:55:48,885 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53273 "POST /session HTTP/1.1" 200 685
+2020-01-05 22:55:48,886 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 22:55:48,886 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53273/session/f088e0c8b2bc60c39cf3b5ecafcfbcc4/elements {"using": "css selector", "value": "[id=\"None\"]"}
+2020-01-05 22:55:48,959 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53273 "POST /session/f088e0c8b2bc60c39cf3b5ecafcfbcc4/elements HTTP/1.1" 200 12
+2020-01-05 22:55:48,960 - remote_connection.py - _request - DEBUG -Finished Request

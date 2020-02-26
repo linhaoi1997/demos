@@ -1,0 +1,28 @@
+2020-01-07 15:27:10,117 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:56838/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-01-07 15:27:10,117 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:56838
+2020-01-07 15:27:11,816 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:56838 "POST /session HTTP/1.1" 200 685
+2020-01-07 15:27:11,816 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-07 15:27:11,817 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:56838/session/27b3fb38bfe2c87ce9ebb3e300c22221/window/maximize {}
+2020-01-07 15:27:12,938 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:56838 "POST /session/27b3fb38bfe2c87ce9ebb3e300c22221/window/maximize HTTP/1.1" 200 52
+2020-01-07 15:27:12,938 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-07 15:27:12,939 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:56838/session/27b3fb38bfe2c87ce9ebb3e300c22221/timeouts {"implicit": 15000}
+2020-01-07 15:27:12,940 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:56838 "POST /session/27b3fb38bfe2c87ce9ebb3e300c22221/timeouts HTTP/1.1" 200 14
+2020-01-07 15:27:12,941 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-07 15:27:12,941 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:56838/session/27b3fb38bfe2c87ce9ebb3e300c22221/window/handles {}
+2020-01-07 15:27:12,944 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:56838 "GET /session/27b3fb38bfe2c87ce9ebb3e300c22221/window/handles HTTP/1.1" 200 55
+2020-01-07 15:27:12,944 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-07 15:27:12,944 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:56838/session/27b3fb38bfe2c87ce9ebb3e300c22221/url {}
+2020-01-07 15:27:12,949 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:56838 "GET /session/27b3fb38bfe2c87ce9ebb3e300c22221/url HTTP/1.1" 200 18
+2020-01-07 15:27:12,949 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-07 15:27:12,949 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:56838/session/27b3fb38bfe2c87ce9ebb3e300c22221/window {"handle": "CDwindow-A0D4C4B07C54A0D3D667132D6ED5052A"}
+2020-01-07 15:27:12,956 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:56838 "POST /session/27b3fb38bfe2c87ce9ebb3e300c22221/window HTTP/1.1" 200 14
+2020-01-07 15:27:12,957 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-07 15:27:12,957 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:56838/session/27b3fb38bfe2c87ce9ebb3e300c22221/url {}
+2020-01-07 15:27:12,962 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:56838 "GET /session/27b3fb38bfe2c87ce9ebb3e300c22221/url HTTP/1.1" 200 18
+2020-01-07 15:27:12,963 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-07 15:27:12,963 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:56838/session/27b3fb38bfe2c87ce9ebb3e300c22221/url {"url": "http://49.234.189.120/user/login"}
+2020-01-07 15:27:13,982 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:56838 "POST /session/27b3fb38bfe2c87ce9ebb3e300c22221/url HTTP/1.1" 200 14
+2020-01-07 15:27:13,982 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-07 15:27:13,982 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:56838/session/27b3fb38bfe2c87ce9ebb3e300c22221/element {"using": "xpath", "value": "//label[@for=\"user_name\"]"}
+2020-01-07 15:27:29,012 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:56838 "POST /session/27b3fb38bfe2c87ce9ebb3e300c22221/element HTTP/1.1" 404 1054
+2020-01-07 15:27:29,012 - remote_connection.py - _request - DEBUG -Finished Request

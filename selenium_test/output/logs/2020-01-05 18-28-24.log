@@ -1,0 +1,13 @@
+2020-01-05 18:28:24,944 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:54788/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-01-05 18:28:24,945 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:54788
+2020-01-05 18:28:26,602 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:54788 "POST /session HTTP/1.1" 200 686
+2020-01-05 18:28:26,602 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 18:28:26,603 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:54788/session/e638f8491af82dba6ef668e4292a9f72/window/maximize {}
+2020-01-05 18:28:27,726 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:54788 "POST /session/e638f8491af82dba6ef668e4292a9f72/window/maximize HTTP/1.1" 200 52
+2020-01-05 18:28:27,727 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 18:28:27,727 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:54788/session/e638f8491af82dba6ef668e4292a9f72/timeouts {"implicit": 15000}
+2020-01-05 18:28:27,729 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:54788 "POST /session/e638f8491af82dba6ef668e4292a9f72/timeouts HTTP/1.1" 200 14
+2020-01-05 18:28:27,729 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 18:28:27,730 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:54788/session/e638f8491af82dba6ef668e4292a9f72/element {"using": "xpath", "value": "//input[@class=\"search-text\"]"}
+2020-01-05 18:28:42,757 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:54788 "POST /session/e638f8491af82dba6ef668e4292a9f72/element HTTP/1.1" 404 1058
+2020-01-05 18:28:42,758 - remote_connection.py - _request - DEBUG -Finished Request

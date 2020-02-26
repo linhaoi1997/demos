@@ -1,0 +1,120 @@
+2019-11-20 19:01:02,164 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:deviceName": "127.0.0.1:62001", "appium:paltformVersion": "5.1.1", "appium:appPackage": "com.netease.newsreader.activity", "appium:appActivity": "com.netease.nr.biz.ad.newAd.AdActivity", "appium:automationName": "Uiautomator2"}]}, "desiredCapabilities": {"platformName": "Android", "deviceName": "127.0.0.1:62001", "paltformVersion": "5.1.1", "appPackage": "com.netease.newsreader.activity", "appActivity": "com.netease.nr.biz.ad.newAd.AdActivity", "automationName": "Uiautomator2"}}
+2019-11-20 19:01:02,165 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:4723
+2019-11-20 19:01:22,433 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1009
+2019-11-20 19:01:22,433 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:01:32,435 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/fac5e2d6-627a-4984-8f7f-6efda2eef9db/timeouts {"implicit": 20000}
+2019-11-20 19:01:32,435 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 19:01:32,444 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/fac5e2d6-627a-4984-8f7f-6efda2eef9db/timeouts HTTP/1.1" 200 14
+2019-11-20 19:01:32,445 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:01:32,445 - basePage.py - wait - DEBUG -隐式等待20s
+2019-11-20 19:01:42,445 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/fac5e2d6-627a-4984-8f7f-6efda2eef9db/element {"using": "-android uiautomator", "value": "new UiSelector().text(\"\u6211\")"}
+2019-11-20 19:01:42,446 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 19:01:42,777 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/fac5e2d6-627a-4984-8f7f-6efda2eef9db/element HTTP/1.1" 200 137
+2019-11-20 19:01:42,777 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:01:42,777 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:4723/wd/hub/session/fac5e2d6-627a-4984-8f7f-6efda2eef9db/element/1a28f08f-11f3-4657-8f54-abde976ce38c/displayed {"id": "1a28f08f-11f3-4657-8f54-abde976ce38c"}
+2019-11-20 19:01:42,800 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "GET /wd/hub/session/fac5e2d6-627a-4984-8f7f-6efda2eef9db/element/1a28f08f-11f3-4657-8f54-abde976ce38c/displayed HTTP/1.1" 200 14
+2019-11-20 19:01:42,800 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:01:42,800 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/fac5e2d6-627a-4984-8f7f-6efda2eef9db/element/1a28f08f-11f3-4657-8f54-abde976ce38c/click {"id": "1a28f08f-11f3-4657-8f54-abde976ce38c"}
+2019-11-20 19:01:44,154 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/fac5e2d6-627a-4984-8f7f-6efda2eef9db/element/1a28f08f-11f3-4657-8f54-abde976ce38c/click HTTP/1.1" 200 14
+2019-11-20 19:01:44,155 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:01:44,155 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/fac5e2d6-627a-4984-8f7f-6efda2eef9db/element {"using": "id", "value": "com.netease.newsreader.activity:id/bbo"}
+2019-11-20 19:01:44,533 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/fac5e2d6-627a-4984-8f7f-6efda2eef9db/element HTTP/1.1" 200 137
+2019-11-20 19:01:44,533 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:01:44,533 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:4723/wd/hub/session/fac5e2d6-627a-4984-8f7f-6efda2eef9db/element/4c3c93eb-693a-4625-a060-416c3ba20d0c/displayed {"id": "4c3c93eb-693a-4625-a060-416c3ba20d0c"}
+2019-11-20 19:01:44,550 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "GET /wd/hub/session/fac5e2d6-627a-4984-8f7f-6efda2eef9db/element/4c3c93eb-693a-4625-a060-416c3ba20d0c/displayed HTTP/1.1" 200 14
+2019-11-20 19:01:44,550 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:01:44,550 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/fac5e2d6-627a-4984-8f7f-6efda2eef9db/element/4c3c93eb-693a-4625-a060-416c3ba20d0c/click {"id": "4c3c93eb-693a-4625-a060-416c3ba20d0c"}
+2019-11-20 19:01:44,607 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/fac5e2d6-627a-4984-8f7f-6efda2eef9db/element/4c3c93eb-693a-4625-a060-416c3ba20d0c/click HTTP/1.1" 200 14
+2019-11-20 19:01:44,608 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:01:44,608 - remote_connection.py - _request - DEBUG -DELETE http://127.0.0.1:4723/wd/hub/session/fac5e2d6-627a-4984-8f7f-6efda2eef9db {}
+2019-11-20 19:01:46,419 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "DELETE /wd/hub/session/fac5e2d6-627a-4984-8f7f-6efda2eef9db HTTP/1.1" 200 14
+2019-11-20 19:01:46,420 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:01:46,420 - basePage.py - exit - DEBUG -关闭驱动
+2019-11-20 19:01:46,426 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:deviceName": "127.0.0.1:62001", "appium:paltformVersion": "5.1.1", "appium:appPackage": "com.netease.newsreader.activity", "appium:appActivity": "com.netease.nr.biz.ad.newAd.AdActivity", "appium:automationName": "Uiautomator2"}]}, "desiredCapabilities": {"platformName": "Android", "deviceName": "127.0.0.1:62001", "paltformVersion": "5.1.1", "appPackage": "com.netease.newsreader.activity", "appActivity": "com.netease.nr.biz.ad.newAd.AdActivity", "automationName": "Uiautomator2"}}
+2019-11-20 19:01:46,427 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:4723
+2019-11-20 19:02:06,070 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1009
+2019-11-20 19:02:06,070 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:16,071 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/timeouts {"implicit": 20000}
+2019-11-20 19:02:16,071 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 19:02:16,078 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/timeouts HTTP/1.1" 200 14
+2019-11-20 19:02:16,078 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:16,079 - basePage.py - wait - DEBUG -隐式等待20s
+2019-11-20 19:02:26,079 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element {"using": "-android uiautomator", "value": "new UiSelector().text(\"\u6211\")"}
+2019-11-20 19:02:26,079 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 19:02:26,537 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element HTTP/1.1" 200 137
+2019-11-20 19:02:26,537 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:26,538 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/e78df442-3bdc-4856-a21e-0bfd572b10c2/displayed {"id": "e78df442-3bdc-4856-a21e-0bfd572b10c2"}
+2019-11-20 19:02:26,563 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "GET /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/e78df442-3bdc-4856-a21e-0bfd572b10c2/displayed HTTP/1.1" 200 14
+2019-11-20 19:02:26,564 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:26,564 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/e78df442-3bdc-4856-a21e-0bfd572b10c2/click {"id": "e78df442-3bdc-4856-a21e-0bfd572b10c2"}
+2019-11-20 19:02:28,048 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/e78df442-3bdc-4856-a21e-0bfd572b10c2/click HTTP/1.1" 200 14
+2019-11-20 19:02:28,049 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:28,049 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element {"using": "id", "value": "com.netease.newsreader.activity:id/apt"}
+2019-11-20 19:02:28,397 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element HTTP/1.1" 200 137
+2019-11-20 19:02:28,398 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:28,398 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/38eb7114-2714-422d-b362-863d0c2e46dd/displayed {"id": "38eb7114-2714-422d-b362-863d0c2e46dd"}
+2019-11-20 19:02:28,410 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "GET /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/38eb7114-2714-422d-b362-863d0c2e46dd/displayed HTTP/1.1" 200 14
+2019-11-20 19:02:28,410 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:28,410 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/38eb7114-2714-422d-b362-863d0c2e46dd/click {"id": "38eb7114-2714-422d-b362-863d0c2e46dd"}
+2019-11-20 19:02:28,463 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/38eb7114-2714-422d-b362-863d0c2e46dd/click HTTP/1.1" 200 14
+2019-11-20 19:02:28,463 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:33,463 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/elements {"using": "id", "value": "com.netease.newsreader.activity:id/a79"}
+2019-11-20 19:02:33,464 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 19:02:33,602 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/elements HTTP/1.1" 200 523
+2019-11-20 19:02:33,602 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:33,602 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/elements {"using": "id", "value": "com.netease.newsreader.activity:id/a79"}
+2019-11-20 19:02:33,632 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/elements HTTP/1.1" 200 523
+2019-11-20 19:02:33,632 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:33,633 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/b152fc96-28b6-440b-a548-0cb748a1953a/click {"id": "b152fc96-28b6-440b-a548-0cb748a1953a"}
+2019-11-20 19:02:33,662 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/b152fc96-28b6-440b-a548-0cb748a1953a/click HTTP/1.1" 200 14
+2019-11-20 19:02:33,663 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:33,663 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element {"using": "id", "value": "com.netease.newsreader.activity:id/ai3"}
+2019-11-20 19:02:34,454 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element HTTP/1.1" 200 137
+2019-11-20 19:02:34,455 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:34,455 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/6c1ddd08-e3c8-4632-9c67-5cba059f4d5b/displayed {"id": "6c1ddd08-e3c8-4632-9c67-5cba059f4d5b"}
+2019-11-20 19:02:34,469 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "GET /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/6c1ddd08-e3c8-4632-9c67-5cba059f4d5b/displayed HTTP/1.1" 200 14
+2019-11-20 19:02:34,469 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:34,470 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/6c1ddd08-e3c8-4632-9c67-5cba059f4d5b/value {"text": "15774518534@163.com", "value": ["1", "5", "7", "7", "4", "5", "1", "8", "5", "3", "4", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "6c1ddd08-e3c8-4632-9c67-5cba059f4d5b"}
+2019-11-20 19:02:34,504 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/6c1ddd08-e3c8-4632-9c67-5cba059f4d5b/value HTTP/1.1" 200 12
+2019-11-20 19:02:34,504 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:39,505 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element {"using": "id", "value": "com.netease.newsreader.activity:id/ai3"}
+2019-11-20 19:02:39,505 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 19:02:39,605 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element HTTP/1.1" 200 137
+2019-11-20 19:02:39,605 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:39,605 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/17ab6191-a759-4623-af7d-aab2af4c0a20/displayed {"id": "17ab6191-a759-4623-af7d-aab2af4c0a20"}
+2019-11-20 19:02:39,618 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "GET /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/17ab6191-a759-4623-af7d-aab2af4c0a20/displayed HTTP/1.1" 200 14
+2019-11-20 19:02:39,619 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:39,619 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/17ab6191-a759-4623-af7d-aab2af4c0a20/click {"id": "17ab6191-a759-4623-af7d-aab2af4c0a20"}
+2019-11-20 19:02:39,652 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/17ab6191-a759-4623-af7d-aab2af4c0a20/click HTTP/1.1" 200 14
+2019-11-20 19:02:39,652 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:39,652 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element {"using": "id", "value": "com.netease.newsreader.activity:id/aj2"}
+2019-11-20 19:02:40,590 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element HTTP/1.1" 200 137
+2019-11-20 19:02:40,590 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:40,591 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/e957900d-1476-4047-8f33-fb0e66c7f429/displayed {"id": "e957900d-1476-4047-8f33-fb0e66c7f429"}
+2019-11-20 19:02:40,612 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "GET /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/e957900d-1476-4047-8f33-fb0e66c7f429/displayed HTTP/1.1" 200 14
+2019-11-20 19:02:40,612 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:40,613 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/e957900d-1476-4047-8f33-fb0e66c7f429/value {"text": "shanbuzaigao123", "value": ["s", "h", "a", "n", "b", "u", "z", "a", "i", "g", "a", "o", "1", "2", "3"], "id": "e957900d-1476-4047-8f33-fb0e66c7f429"}
+2019-11-20 19:02:41,248 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/e957900d-1476-4047-8f33-fb0e66c7f429/value HTTP/1.1" 200 12
+2019-11-20 19:02:41,249 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:41,249 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element {"using": "id", "value": "com.netease.newsreader.activity:id/aj2"}
+2019-11-20 19:02:41,888 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element HTTP/1.1" 200 137
+2019-11-20 19:02:41,888 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:41,889 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/734df0f9-21ff-474e-a3f7-81a9a284783c/displayed {"id": "734df0f9-21ff-474e-a3f7-81a9a284783c"}
+2019-11-20 19:02:41,903 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "GET /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/734df0f9-21ff-474e-a3f7-81a9a284783c/displayed HTTP/1.1" 200 14
+2019-11-20 19:02:41,903 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:41,903 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/734df0f9-21ff-474e-a3f7-81a9a284783c/click {"id": "734df0f9-21ff-474e-a3f7-81a9a284783c"}
+2019-11-20 19:02:41,956 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/734df0f9-21ff-474e-a3f7-81a9a284783c/click HTTP/1.1" 200 14
+2019-11-20 19:02:41,957 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:41,957 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element {"using": "id", "value": "com.netease.newsreader.activity:id/aj4"}
+2019-11-20 19:02:42,614 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element HTTP/1.1" 200 137
+2019-11-20 19:02:42,614 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:42,615 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/e15d8d86-4b0b-4f82-8692-efeb9fd3a980/displayed {"id": "e15d8d86-4b0b-4f82-8692-efeb9fd3a980"}
+2019-11-20 19:02:42,628 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "GET /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/e15d8d86-4b0b-4f82-8692-efeb9fd3a980/displayed HTTP/1.1" 200 14
+2019-11-20 19:02:42,629 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:42,629 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/e15d8d86-4b0b-4f82-8692-efeb9fd3a980/click {"id": "e15d8d86-4b0b-4f82-8692-efeb9fd3a980"}
+2019-11-20 19:02:42,646 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918/element/e15d8d86-4b0b-4f82-8692-efeb9fd3a980/click HTTP/1.1" 200 14
+2019-11-20 19:02:42,646 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:42,646 - remote_connection.py - _request - DEBUG -DELETE http://127.0.0.1:4723/wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918 {}
+2019-11-20 19:02:44,008 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "DELETE /wd/hub/session/76840728-606a-4c64-9ab6-91744eef0918 HTTP/1.1" 200 14
+2019-11-20 19:02:44,009 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 19:02:44,009 - basePage.py - exit - DEBUG -关闭驱动

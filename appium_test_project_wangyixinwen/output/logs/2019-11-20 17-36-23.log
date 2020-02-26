@@ -1,0 +1,35 @@
+2019-11-20 17:36:23,394 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:deviceName": "127.0.0.1:62001", "appium:paltformVersion": "5.1.1", "appium:appPackage": "com.netease.newsreader.activity", "appium:appActivity": "com.netease.nr.biz.ad.AdActivity", "appium:automationName": "Uiautomator2"}]}, "desiredCapabilities": {"platformName": "Android", "deviceName": "127.0.0.1:62001", "paltformVersion": "5.1.1", "appPackage": "com.netease.newsreader.activity", "appActivity": "com.netease.nr.biz.ad.AdActivity", "automationName": "Uiautomator2"}}
+2019-11-20 17:36:23,395 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:4723
+2019-11-20 17:36:37,769 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 997
+2019-11-20 17:36:37,769 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 17:36:47,771 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33/timeouts {"implicit": 20000}
+2019-11-20 17:36:47,771 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 17:36:47,779 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33/timeouts HTTP/1.1" 200 14
+2019-11-20 17:36:47,780 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 17:36:47,780 - basePage.py - wait - DEBUG -隐式等待20s
+2019-11-20 17:36:47,780 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33/element {"using": "id", "value": "com.netease.newsreader.activity:id/bu1"}
+2019-11-20 17:36:47,888 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33/element HTTP/1.1" 200 137
+2019-11-20 17:36:47,888 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 17:36:47,888 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33/element/b0e56112-a042-4246-b88d-4ef5562fb22a/click {"id": "b0e56112-a042-4246-b88d-4ef5562fb22a"}
+2019-11-20 17:36:47,924 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33/element/b0e56112-a042-4246-b88d-4ef5562fb22a/click HTTP/1.1" 200 14
+2019-11-20 17:36:47,925 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 17:36:47,925 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:4723/wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33/window/rect {}
+2019-11-20 17:36:47,944 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "GET /wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33/window/rect HTTP/1.1" 200 50
+2019-11-20 17:36:47,945 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 17:36:47,945 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33/touch/perform {"actions": [{"action": "press", "options": {"x": 540.0, "y": 192.0}}, {"action": "wait", "options": {"ms": 2000}}, {"action": "moveTo", "options": {"x": 540.0, "y": 960.0}}, {"action": "release", "options": {}}]}
+2019-11-20 17:36:48,764 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33/touch/perform HTTP/1.1" 500 770
+2019-11-20 17:36:48,764 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 17:36:58,764 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33/element {"using": "-android uiautomator", "value": "new UiSelector().text(\"\u6211\")"}
+2019-11-20 17:36:58,765 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 17:36:59,049 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33/element HTTP/1.1" 200 137
+2019-11-20 17:36:59,049 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 17:36:59,049 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:4723/wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33/element/e45a6ffb-3375-4e5e-bd18-04ff56cff554/displayed {"id": "e45a6ffb-3375-4e5e-bd18-04ff56cff554"}
+2019-11-20 17:36:59,075 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "GET /wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33/element/e45a6ffb-3375-4e5e-bd18-04ff56cff554/displayed HTTP/1.1" 200 14
+2019-11-20 17:36:59,075 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 17:36:59,076 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33/element/e45a6ffb-3375-4e5e-bd18-04ff56cff554/click {"id": "e45a6ffb-3375-4e5e-bd18-04ff56cff554"}
+2019-11-20 17:37:00,275 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33/element/e45a6ffb-3375-4e5e-bd18-04ff56cff554/click HTTP/1.1" 200 14
+2019-11-20 17:37:00,275 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 17:37:00,276 - remote_connection.py - _request - DEBUG -DELETE http://127.0.0.1:4723/wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33 {}
+2019-11-20 17:37:01,772 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "DELETE /wd/hub/session/3aa5afdc-a795-4014-af94-95560f0d1d33 HTTP/1.1" 200 14
+2019-11-20 17:37:01,772 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 17:37:01,773 - basePage.py - exit - DEBUG -关闭驱动

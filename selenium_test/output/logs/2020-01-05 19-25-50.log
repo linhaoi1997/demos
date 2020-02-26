@@ -1,0 +1,16 @@
+2020-01-05 19:25:51,002 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:59257/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-01-05 19:25:51,032 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:59257
+2020-01-05 19:25:52,694 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:59257 "POST /session HTTP/1.1" 200 685
+2020-01-05 19:25:52,695 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 19:25:52,695 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:59257/session/5d12f613be3f11ac04269864357dbf10/window/maximize {}
+2020-01-05 19:25:53,816 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:59257 "POST /session/5d12f613be3f11ac04269864357dbf10/window/maximize HTTP/1.1" 200 52
+2020-01-05 19:25:53,817 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 19:25:53,818 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:59257/session/5d12f613be3f11ac04269864357dbf10/timeouts {"implicit": 15000}
+2020-01-05 19:25:53,819 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:59257 "POST /session/5d12f613be3f11ac04269864357dbf10/timeouts HTTP/1.1" 200 14
+2020-01-05 19:25:53,820 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 19:25:53,820 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:59257/session/5d12f613be3f11ac04269864357dbf10/url {"url": "http://49.234.189.120/"}
+2020-01-05 19:26:14,479 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:59257 "POST /session/5d12f613be3f11ac04269864357dbf10/url HTTP/1.1" 200 14
+2020-01-05 19:26:14,480 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 19:26:14,480 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:59257/session/5d12f613be3f11ac04269864357dbf10/element {"using": ["xpath", "//input[@name=\"user_name\"]"], "value": null}
+2020-01-05 19:26:14,483 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:59257 "POST /session/5d12f613be3f11ac04269864357dbf10/element HTTP/1.1" 400 987
+2020-01-05 19:26:14,483 - remote_connection.py - _request - DEBUG -Finished Request

@@ -1,0 +1,138 @@
+2019-11-20 14:34:10,324 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:deviceName": "127.0.0.1:62001", "appium:paltformVersion": "5.1.1", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "appium:automationName": "Uiautomator2"}]}, "desiredCapabilities": {"platformName": "Android", "deviceName": "127.0.0.1:62001", "paltformVersion": "5.1.1", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "automationName": "Uiautomator2"}}
+2019-11-20 14:34:10,325 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:4723
+2019-11-20 14:34:34,135 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 965
+2019-11-20 14:34:34,135 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:34:44,136 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/d9f7f3f7-4493-4340-b2c3-096db0415fda/timeouts {"implicit": 20000}
+2019-11-20 14:34:44,136 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 14:34:44,146 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/d9f7f3f7-4493-4340-b2c3-096db0415fda/timeouts HTTP/1.1" 200 14
+2019-11-20 14:34:44,147 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:34:44,147 - basePage.py - wait - DEBUG -隐式等待20s
+2019-11-20 14:34:44,147 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/d9f7f3f7-4493-4340-b2c3-096db0415fda/element {"using": "xpath", "value": "//*[@text='\u540c\u610f']"}
+2019-11-20 14:34:49,965 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/d9f7f3f7-4493-4340-b2c3-096db0415fda/element HTTP/1.1" 200 137
+2019-11-20 14:34:49,965 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:34:49,965 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/d9f7f3f7-4493-4340-b2c3-096db0415fda/element/6649c4c7-aca9-4594-a05f-d7557d97ebce/click {"id": "6649c4c7-aca9-4594-a05f-d7557d97ebce"}
+2019-11-20 14:35:04,184 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/d9f7f3f7-4493-4340-b2c3-096db0415fda/element/6649c4c7-aca9-4594-a05f-d7557d97ebce/click HTTP/1.1" 200 14
+2019-11-20 14:35:04,184 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:35:04,184 - testIndexPageCase.py - setUp - DEBUG -测试开始
+2019-11-20 14:35:14,184 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/d9f7f3f7-4493-4340-b2c3-096db0415fda/element {"using": "xpath", "value": "//*[contains(@content-desc,\"\u641c\u7d22\")]"}
+2019-11-20 14:35:14,184 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 14:35:51,441 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/d9f7f3f7-4493-4340-b2c3-096db0415fda/element HTTP/1.1" 404 480
+2019-11-20 14:35:51,441 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:35:51,441 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:4723/wd/hub/session/d9f7f3f7-4493-4340-b2c3-096db0415fda/screenshot {}
+2019-11-20 14:35:53,423 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "GET /wd/hub/session/d9f7f3f7-4493-4340-b2c3-096db0415fda/screenshot HTTP/1.1" 200 273862
+2019-11-20 14:35:53,427 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:35:53,446 - basePage.py - screenshot - DEBUG -获取截图 E:\software\JetBrains\pycharm\projects\appium_test_project_taobao\output\screenshot/2019-11-20 14-35-51.png
+2019-11-20 14:35:53,446 - remote_connection.py - _request - DEBUG -DELETE http://127.0.0.1:4723/wd/hub/session/d9f7f3f7-4493-4340-b2c3-096db0415fda {}
+2019-11-20 14:35:56,852 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "DELETE /wd/hub/session/d9f7f3f7-4493-4340-b2c3-096db0415fda HTTP/1.1" 200 14
+2019-11-20 14:35:56,852 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:35:56,852 - basePage.py - exit - DEBUG -关闭驱动
+2019-11-20 14:35:56,853 - testIndexPageCase.py - tearDown - DEBUG -测试结束
+2019-11-20 14:35:56,854 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:deviceName": "127.0.0.1:62001", "appium:paltformVersion": "5.1.1", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "appium:automationName": "Uiautomator2"}]}, "desiredCapabilities": {"platformName": "Android", "deviceName": "127.0.0.1:62001", "paltformVersion": "5.1.1", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "automationName": "Uiautomator2"}}
+2019-11-20 14:35:56,854 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:4723
+2019-11-20 14:36:17,264 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 965
+2019-11-20 14:36:17,264 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:36:27,265 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/3bb64f79-1122-402f-a3ad-878b25966f34/timeouts {"implicit": 20000}
+2019-11-20 14:36:27,265 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 14:36:27,270 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/3bb64f79-1122-402f-a3ad-878b25966f34/timeouts HTTP/1.1" 200 14
+2019-11-20 14:36:27,270 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:36:27,270 - basePage.py - wait - DEBUG -隐式等待20s
+2019-11-20 14:36:27,270 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/3bb64f79-1122-402f-a3ad-878b25966f34/element {"using": "xpath", "value": "//*[@text='\u540c\u610f']"}
+2019-11-20 14:36:29,460 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/3bb64f79-1122-402f-a3ad-878b25966f34/element HTTP/1.1" 200 137
+2019-11-20 14:36:29,461 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:36:29,461 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/3bb64f79-1122-402f-a3ad-878b25966f34/element/7369374a-5a7a-4641-aafc-62de20ef8f95/click {"id": "7369374a-5a7a-4641-aafc-62de20ef8f95"}
+2019-11-20 14:36:29,735 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/3bb64f79-1122-402f-a3ad-878b25966f34/element/7369374a-5a7a-4641-aafc-62de20ef8f95/click HTTP/1.1" 200 14
+2019-11-20 14:36:29,735 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:36:29,735 - testIndexPageCase.py - setUp - DEBUG -测试开始
+2019-11-20 14:36:39,736 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/3bb64f79-1122-402f-a3ad-878b25966f34/element {"using": "xpath", "value": "//*[contains(@content-desc,\"\u641c\u7d22\")]"}
+2019-11-20 14:36:39,736 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 14:37:04,821 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/3bb64f79-1122-402f-a3ad-878b25966f34/element HTTP/1.1" 404 480
+2019-11-20 14:37:04,821 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:37:04,822 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:4723/wd/hub/session/3bb64f79-1122-402f-a3ad-878b25966f34/screenshot {}
+2019-11-20 14:37:05,197 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "GET /wd/hub/session/3bb64f79-1122-402f-a3ad-878b25966f34/screenshot HTTP/1.1" 200 165936
+2019-11-20 14:37:05,199 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:37:05,200 - basePage.py - screenshot - DEBUG -获取截图 E:\software\JetBrains\pycharm\projects\appium_test_project_taobao\output\screenshot/2019-11-20 14-37-04.png
+2019-11-20 14:37:05,200 - remote_connection.py - _request - DEBUG -DELETE http://127.0.0.1:4723/wd/hub/session/3bb64f79-1122-402f-a3ad-878b25966f34 {}
+2019-11-20 14:37:08,224 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "DELETE /wd/hub/session/3bb64f79-1122-402f-a3ad-878b25966f34 HTTP/1.1" 200 14
+2019-11-20 14:37:08,225 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:37:08,225 - basePage.py - exit - DEBUG -关闭驱动
+2019-11-20 14:37:08,225 - testIndexPageCase.py - tearDown - DEBUG -测试结束
+2019-11-20 14:37:08,235 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:deviceName": "127.0.0.1:62001", "appium:paltformVersion": "5.1.1", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "appium:automationName": "Uiautomator2"}]}, "desiredCapabilities": {"platformName": "Android", "deviceName": "127.0.0.1:62001", "paltformVersion": "5.1.1", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "automationName": "Uiautomator2"}}
+2019-11-20 14:37:08,236 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:4723
+2019-11-20 14:37:28,961 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 965
+2019-11-20 14:37:28,962 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:37:38,962 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/timeouts {"implicit": 20000}
+2019-11-20 14:37:38,962 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 14:37:38,967 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/timeouts HTTP/1.1" 200 14
+2019-11-20 14:37:38,968 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:37:38,968 - basePage.py - wait - DEBUG -隐式等待20s
+2019-11-20 14:37:38,968 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/element {"using": "xpath", "value": "//*[@text='\u540c\u610f']"}
+2019-11-20 14:37:42,262 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/element HTTP/1.1" 200 137
+2019-11-20 14:37:42,262 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:37:42,262 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/element/53f98998-5ea0-4923-9e36-1a5ce332710b/click {"id": "53f98998-5ea0-4923-9e36-1a5ce332710b"}
+2019-11-20 14:37:42,731 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/element/53f98998-5ea0-4923-9e36-1a5ce332710b/click HTTP/1.1" 200 14
+2019-11-20 14:37:42,732 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:37:42,732 - testIndexPageCase.py - setUp - DEBUG -测试开始
+2019-11-20 14:37:52,733 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/element {"using": "xpath", "value": "//*[contains(@content-desc,\"\u641c\u7d22\")]"}
+2019-11-20 14:37:52,733 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 14:38:16,312 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/element HTTP/1.1" 200 137
+2019-11-20 14:38:16,313 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:38:16,313 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/element/c4240f19-9262-45c0-a64f-0120e9b351a6/click {"id": "c4240f19-9262-45c0-a64f-0120e9b351a6"}
+2019-11-20 14:38:16,373 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/element/c4240f19-9262-45c0-a64f-0120e9b351a6/click HTTP/1.1" 200 14
+2019-11-20 14:38:16,373 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:38:16,374 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/element {"using": "id", "value": "com.taobao.taobao:id/searchEdit"}
+2019-11-20 14:38:25,095 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/element HTTP/1.1" 200 137
+2019-11-20 14:38:25,096 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:38:25,096 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/element/8cdb2f7a-c112-417c-910b-4626bb50c65d/value {"text": "sony", "value": ["s", "o", "n", "y"], "id": "8cdb2f7a-c112-417c-910b-4626bb50c65d"}
+2019-11-20 14:38:28,174 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/element/8cdb2f7a-c112-417c-910b-4626bb50c65d/value HTTP/1.1" 200 12
+2019-11-20 14:38:28,174 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:38:28,175 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/element {"using": "accessibility id", "value": "\u641c\u7d22"}
+2019-11-20 14:38:28,572 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/element HTTP/1.1" 200 137
+2019-11-20 14:38:28,572 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:38:28,573 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/element/5969071a-a9e2-4b03-861c-57715f73033a/click {"id": "5969071a-a9e2-4b03-861c-57715f73033a"}
+2019-11-20 14:38:28,715 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36/element/5969071a-a9e2-4b03-861c-57715f73033a/click HTTP/1.1" 200 14
+2019-11-20 14:38:28,715 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:38:28,715 - remote_connection.py - _request - DEBUG -DELETE http://127.0.0.1:4723/wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36 {}
+2019-11-20 14:38:32,960 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "DELETE /wd/hub/session/08bb5aed-b448-4fba-b9bf-3dbe58b13a36 HTTP/1.1" 200 14
+2019-11-20 14:38:32,961 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:38:32,961 - basePage.py - exit - DEBUG -关闭驱动
+2019-11-20 14:38:32,961 - testIndexPageCase.py - tearDown - DEBUG -测试结束
+2019-11-20 14:38:32,962 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:deviceName": "127.0.0.1:62001", "appium:paltformVersion": "5.1.1", "appium:appPackage": "com.taobao.taobao", "appium:appActivity": "com.taobao.tao.welcome.Welcome", "appium:automationName": "Uiautomator2"}]}, "desiredCapabilities": {"platformName": "Android", "deviceName": "127.0.0.1:62001", "paltformVersion": "5.1.1", "appPackage": "com.taobao.taobao", "appActivity": "com.taobao.tao.welcome.Welcome", "automationName": "Uiautomator2"}}
+2019-11-20 14:38:32,962 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:4723
+2019-11-20 14:38:56,513 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 965
+2019-11-20 14:38:56,513 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:39:06,514 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/timeouts {"implicit": 20000}
+2019-11-20 14:39:06,514 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 14:39:06,519 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/timeouts HTTP/1.1" 200 14
+2019-11-20 14:39:06,519 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:39:06,519 - basePage.py - wait - DEBUG -隐式等待20s
+2019-11-20 14:39:06,519 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/element {"using": "xpath", "value": "//*[@text='\u540c\u610f']"}
+2019-11-20 14:39:10,240 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/element HTTP/1.1" 200 137
+2019-11-20 14:39:10,240 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:39:10,241 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/element/601cc162-202c-46ee-98d7-bd4d5adcef44/click {"id": "601cc162-202c-46ee-98d7-bd4d5adcef44"}
+2019-11-20 14:39:11,174 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/element/601cc162-202c-46ee-98d7-bd4d5adcef44/click HTTP/1.1" 200 14
+2019-11-20 14:39:11,175 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:39:11,175 - testIndexPageCase.py - setUp - DEBUG -测试开始
+2019-11-20 14:39:21,175 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/element {"using": "xpath", "value": "//*[contains(@content-desc,\"\u641c\u7d22\")]"}
+2019-11-20 14:39:21,176 - connectionpool.py - _get_conn - DEBUG -Resetting dropped connection: 127.0.0.1
+2019-11-20 14:39:42,409 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/element HTTP/1.1" 200 137
+2019-11-20 14:39:42,409 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:39:42,409 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/element/0f195101-0e12-48ed-a50e-b60301024861/click {"id": "0f195101-0e12-48ed-a50e-b60301024861"}
+2019-11-20 14:39:43,051 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/element/0f195101-0e12-48ed-a50e-b60301024861/click HTTP/1.1" 200 14
+2019-11-20 14:39:43,051 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:39:43,052 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/element {"using": "id", "value": "com.taobao.taobao:id/searchEdit"}
+2019-11-20 14:39:50,087 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/element HTTP/1.1" 200 137
+2019-11-20 14:39:50,088 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:39:50,088 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/element/f43ee994-623b-4988-927a-6e07ba0bf814/value {"text": "<script>alert(1)</script>", "value": ["<", "s", "c", "r", "i", "p", "t", ">", "a", "l", "e", "r", "t", "(", "1", ")", "<", "/", "s", "c", "r", "i", "p", "t", ">"], "id": "f43ee994-623b-4988-927a-6e07ba0bf814"}
+2019-11-20 14:39:51,273 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/element/f43ee994-623b-4988-927a-6e07ba0bf814/value HTTP/1.1" 200 12
+2019-11-20 14:39:51,273 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:39:51,273 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/element {"using": "accessibility id", "value": "\u641c\u7d22"}
+2019-11-20 14:39:51,958 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/element HTTP/1.1" 200 137
+2019-11-20 14:39:51,959 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:39:51,959 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:4723/wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/element/e6215477-7e8a-41c1-8061-f077273f8c3a/click {"id": "e6215477-7e8a-41c1-8061-f077273f8c3a"}
+2019-11-20 14:39:52,681 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "POST /wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25/element/e6215477-7e8a-41c1-8061-f077273f8c3a/click HTTP/1.1" 200 14
+2019-11-20 14:39:52,682 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:39:52,682 - remote_connection.py - _request - DEBUG -DELETE http://127.0.0.1:4723/wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25 {}
+2019-11-20 14:39:54,330 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:4723 "DELETE /wd/hub/session/4287d42b-460e-4d9e-adb6-95250e7bdb25 HTTP/1.1" 200 14
+2019-11-20 14:39:54,331 - remote_connection.py - _request - DEBUG -Finished Request
+2019-11-20 14:39:54,331 - basePage.py - exit - DEBUG -关闭驱动
+2019-11-20 14:39:54,331 - testIndexPageCase.py - tearDown - DEBUG -测试结束

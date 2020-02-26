@@ -1,0 +1,16 @@
+2020-01-05 20:10:13,066 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:63358/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-01-05 20:10:13,067 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:63358
+2020-01-05 20:10:14,729 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:63358 "POST /session HTTP/1.1" 200 685
+2020-01-05 20:10:14,730 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 20:10:14,730 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:63358/session/18b9f6ac28a7e59dba4700c3e4a31aa9/window/maximize {}
+2020-01-05 20:10:15,856 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:63358 "POST /session/18b9f6ac28a7e59dba4700c3e4a31aa9/window/maximize HTTP/1.1" 200 52
+2020-01-05 20:10:15,856 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 20:10:15,857 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:63358/session/18b9f6ac28a7e59dba4700c3e4a31aa9/timeouts {"implicit": 15000}
+2020-01-05 20:10:15,858 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:63358 "POST /session/18b9f6ac28a7e59dba4700c3e4a31aa9/timeouts HTTP/1.1" 200 14
+2020-01-05 20:10:15,859 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 20:10:15,859 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:63358/session/18b9f6ac28a7e59dba4700c3e4a31aa9/url {}
+2020-01-05 20:10:15,866 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:63358 "GET /session/18b9f6ac28a7e59dba4700c3e4a31aa9/url HTTP/1.1" 200 18
+2020-01-05 20:10:15,867 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 20:10:15,868 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:63358/session/18b9f6ac28a7e59dba4700c3e4a31aa9/element {"using": "xpath", "value": "//div[@class=\"item-thumb\"]/a"}
+2020-01-05 20:10:30,879 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:63358 "POST /session/18b9f6ac28a7e59dba4700c3e4a31aa9/element HTTP/1.1" 404 1057
+2020-01-05 20:10:30,879 - remote_connection.py - _request - DEBUG -Finished Request

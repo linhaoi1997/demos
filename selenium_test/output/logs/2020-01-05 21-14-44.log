@@ -1,0 +1,46 @@
+2020-01-05 21:14:45,199 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53611/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-01-05 21:14:45,200 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:53611
+2020-01-05 21:14:46,847 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53611 "POST /session HTTP/1.1" 200 686
+2020-01-05 21:14:46,848 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 21:14:46,848 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53611/session/4a06ef867460cf4d798cb94c299d248e/window/maximize {}
+2020-01-05 21:14:47,965 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53611 "POST /session/4a06ef867460cf4d798cb94c299d248e/window/maximize HTTP/1.1" 200 52
+2020-01-05 21:14:47,966 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 21:14:47,966 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53611/session/4a06ef867460cf4d798cb94c299d248e/timeouts {"implicit": 15000}
+2020-01-05 21:14:47,968 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53611 "POST /session/4a06ef867460cf4d798cb94c299d248e/timeouts HTTP/1.1" 200 14
+2020-01-05 21:14:47,969 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 21:14:47,969 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:53611/session/4a06ef867460cf4d798cb94c299d248e/url {}
+2020-01-05 21:14:47,975 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53611 "GET /session/4a06ef867460cf4d798cb94c299d248e/url HTTP/1.1" 200 18
+2020-01-05 21:14:47,976 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 21:14:47,976 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:53611/session/4a06ef867460cf4d798cb94c299d248e/url {}
+2020-01-05 21:14:47,979 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53611 "GET /session/4a06ef867460cf4d798cb94c299d248e/url HTTP/1.1" 200 18
+2020-01-05 21:14:47,979 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 21:14:47,979 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53611/session/4a06ef867460cf4d798cb94c299d248e/url {"url": "http://49.234.189.120/list/goodsSearch"}
+2020-01-05 21:14:57,206 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53611 "POST /session/4a06ef867460cf4d798cb94c299d248e/url HTTP/1.1" 200 14
+2020-01-05 21:14:57,207 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 21:14:57,207 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53611/session/4a06ef867460cf4d798cb94c299d248e/element {"using": "xpath", "value": "//div[@class=\"item-thumb\"]/a"}
+2020-01-05 21:14:57,235 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53611 "POST /session/4a06ef867460cf4d798cb94c299d248e/element HTTP/1.1" 200 88
+2020-01-05 21:14:57,236 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 21:14:57,236 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53611/session/4a06ef867460cf4d798cb94c299d248e/element/54f104ae-bb85-439a-b6f6-f093461dcf5c/click {"id": "54f104ae-bb85-439a-b6f6-f093461dcf5c"}
+2020-01-05 21:14:57,372 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53611 "POST /session/4a06ef867460cf4d798cb94c299d248e/element/54f104ae-bb85-439a-b6f6-f093461dcf5c/click HTTP/1.1" 200 14
+2020-01-05 21:14:57,373 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 21:14:57,373 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:53611/session/4a06ef867460cf4d798cb94c299d248e/url {}
+2020-01-05 21:14:57,380 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53611 "GET /session/4a06ef867460cf4d798cb94c299d248e/url HTTP/1.1" 200 50
+2020-01-05 21:14:57,381 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 21:14:57,381 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:53611/session/4a06ef867460cf4d798cb94c299d248e/url {}
+2020-01-05 21:14:57,388 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53611 "GET /session/4a06ef867460cf4d798cb94c299d248e/url HTTP/1.1" 200 50
+2020-01-05 21:14:57,389 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 21:14:57,389 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53611/session/4a06ef867460cf4d798cb94c299d248e/url {"url": "http://49.234.189.120/goods/8/2"}
+2020-01-05 21:15:07,010 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53611 "POST /session/4a06ef867460cf4d798cb94c299d248e/url HTTP/1.1" 200 14
+2020-01-05 21:15:07,011 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 21:15:17,011 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53611/session/4a06ef867460cf4d798cb94c299d248e/element {"using": "xpath", "value": "//button[@id=\"add_cart_submit\"]"}
+2020-01-05 21:15:17,034 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53611 "POST /session/4a06ef867460cf4d798cb94c299d248e/element HTTP/1.1" 200 88
+2020-01-05 21:15:17,035 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 21:15:17,035 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53611/session/4a06ef867460cf4d798cb94c299d248e/element/b28dbba6-987f-4598-8cad-c2465c5ab6ac/element {"using": "xpath", "value": "./ancestor-or-self::form", "id": "b28dbba6-987f-4598-8cad-c2465c5ab6ac"}
+2020-01-05 21:15:17,056 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53611 "POST /session/4a06ef867460cf4d798cb94c299d248e/element/b28dbba6-987f-4598-8cad-c2465c5ab6ac/element HTTP/1.1" 200 88
+2020-01-05 21:15:17,056 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 21:15:17,057 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53611/session/4a06ef867460cf4d798cb94c299d248e/execute/sync {"script": "var e = arguments[0].ownerDocument.createEvent('Event');e.initEvent('submit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }", "args": [{"ELEMENT": "90f49c27-f638-4b26-be8c-7708c1c5cb1d", "element-6066-11e4-a52e-4f735466cecf": "90f49c27-f638-4b26-be8c-7708c1c5cb1d"}]}
+2020-01-05 21:15:17,075 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53611 "POST /session/4a06ef867460cf4d798cb94c299d248e/execute/sync HTTP/1.1" 200 14
+2020-01-05 21:15:17,076 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 21:15:17,076 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:53611/session/4a06ef867460cf4d798cb94c299d248e/element/b28dbba6-987f-4598-8cad-c2465c5ab6ac/click {"id": "b28dbba6-987f-4598-8cad-c2465c5ab6ac"}
+2020-01-05 21:15:22,130 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:53611 "POST /session/4a06ef867460cf4d798cb94c299d248e/element/b28dbba6-987f-4598-8cad-c2465c5ab6ac/click HTTP/1.1" 200 14
+2020-01-05 21:15:22,130 - remote_connection.py - _request - DEBUG -Finished Request

@@ -1,0 +1,16 @@
+2020-01-05 19:38:17,923 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:60488/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-01-05 19:38:17,924 - connectionpool.py - _new_conn - DEBUG -Starting new HTTP connection (1): 127.0.0.1:60488
+2020-01-05 19:38:19,534 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:60488 "POST /session HTTP/1.1" 200 684
+2020-01-05 19:38:19,535 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 19:38:19,535 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:60488/session/d2cdec1da2c484c92940ef7db4cc55c3/window/maximize {}
+2020-01-05 19:38:20,662 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:60488 "POST /session/d2cdec1da2c484c92940ef7db4cc55c3/window/maximize HTTP/1.1" 200 52
+2020-01-05 19:38:20,662 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 19:38:20,663 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:60488/session/d2cdec1da2c484c92940ef7db4cc55c3/timeouts {"implicit": 15000}
+2020-01-05 19:38:20,664 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:60488 "POST /session/d2cdec1da2c484c92940ef7db4cc55c3/timeouts HTTP/1.1" 200 14
+2020-01-05 19:38:20,665 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 19:38:20,665 - remote_connection.py - _request - DEBUG -GET http://127.0.0.1:60488/session/d2cdec1da2c484c92940ef7db4cc55c3/url {}
+2020-01-05 19:38:20,672 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:60488 "GET /session/d2cdec1da2c484c92940ef7db4cc55c3/url HTTP/1.1" 200 18
+2020-01-05 19:38:20,673 - remote_connection.py - _request - DEBUG -Finished Request
+2020-01-05 19:38:20,673 - remote_connection.py - _request - DEBUG -POST http://127.0.0.1:60488/session/d2cdec1da2c484c92940ef7db4cc55c3/url {"url": "http://49.234.189.120/user/login"}
+2020-01-05 19:38:21,845 - connectionpool.py - _make_request - DEBUG -http://127.0.0.1:60488 "POST /session/d2cdec1da2c484c92940ef7db4cc55c3/url HTTP/1.1" 200 14
+2020-01-05 19:38:21,846 - remote_connection.py - _request - DEBUG -Finished Request

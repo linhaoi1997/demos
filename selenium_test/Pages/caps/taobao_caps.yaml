@@ -1,0 +1,17 @@
+
+            # 设备类型
+            platformName: Android
+            # 设备名称
+            deviceName: 127.0.0.1:62001
+            # 版本号
+            paltformVersion: 5.1.1
+            # 包名
+            appPackage: com.netease.newsreader.activity
+            # launcher—activity
+            appActivity: com.netease.nr.biz.ad.newAd.AdActivity
+            # 'appWaitActivity': '.Splash'
+            # 驱动模式
+            automationName: Uiautomator2
+
+            #如果不想app重新登陆 下次不重置
+            #noReset: True
